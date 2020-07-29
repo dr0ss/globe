@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url(https://m.media-amazon.com/images/G/01/adt/hiring/amazonember.woff2) format("woff2"),url(https://m.media-amazon.com/images/G/01/adt/hiring/amazonember.woff) format("woff")
+}
+html,
+body {
+  position: relative;
+  margin: 0px auto;
+	background-color: #333333;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-family: "Amazon Ember";
+}
+
+body {
+  max-width: 800px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a,
+a:visited {
+  color: #99CCFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+.logo {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+h2, h3 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-top-color: rgba(0,0,0,0.5);
+  border-bottom-color: rgba(255,255,255,0.1);
+  border-left: none;
+  border-right: none;
+}
+
+.widget {
+  position: relative;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  line-height: 400px;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), inset 0px 1px 2px rgba(0,0,0,0.25), 0px 1px 0px rgba(255,255,255,0.1);
+  border-radius: 5px;
+  background-color: #2A292A;
+}
+
+.links {
+  text-align: center;
+}
